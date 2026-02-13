@@ -1,3 +1,5 @@
+use rex::run;
+
 fn main() {
-    println!("Hello, world!");
+    run();
 }
