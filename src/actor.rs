@@ -1,4 +1,5 @@
 use crate::types::{Context, Response};
+use crate::Request;
 
 pub trait Actor {}
 
@@ -12,7 +13,7 @@ pub trait Actor {}
 */
 
 pub trait ErasedHandler {
-    fn call(&mut self) -> Response;
+    fn call(&mut self, req: &Request) -> Response;
 }
 
 pub trait Handler<M>: Actor {

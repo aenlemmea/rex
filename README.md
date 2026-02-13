@@ -10,3 +10,6 @@ A micro web framework in Rust. Mostly for learning purposes. Somewhat "Actor bas
 ## Running
 
 Run the sample with: `cargo run --bin sample`
+
+
+The directort `old_sample` is mostly documenting the evolution of the code through the samples. Eventually they became obsolete (and non-compatible) hence were moved there.
